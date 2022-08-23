@@ -14,7 +14,7 @@ public class BasicNavigations {
         //this will maximize the browser size
         driver.manage().window().maximize();
 
-        driver.get("https://www.tesla.com"); // go to tesla
+        driver.get("https://www.tesla.com"); // go to tesla.com
 
         String currentTitle = driver.getTitle();
         System.out.println("currentTitle = " + currentTitle);

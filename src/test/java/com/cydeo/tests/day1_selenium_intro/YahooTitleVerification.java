@@ -10,6 +10,8 @@ public class YahooTitleVerification {
 
         WebDriver  driver = new ChromeDriver();
 
+        driver.manage().window().maximize();
+
         driver.get("https://www.yahoo.com");
 
         String VerifyTitle=  driver.getTitle();
